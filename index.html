@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.5" />
+    <title>Jogo do Dado</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="player active" id="player1">
+        <h1 class="name" id="name1">Player 1</h1>
+        <p class="score" id="score1">0</p>
+        <div class="current-container">
+          <h2 class="current-title">Current</h2>
+          <p class="current" id="current1">0</p>
+        </div>
+      </section>
+      <section class="player" id="player2">
+        <h1 class="name" id="name2">Player 2</h1>
+        <p class="score" id="score2">0</p>
+        <div class="current-container">
+          <h2 class="current-title">Current</h2>
+          <p class="current" id="current2">0</p>
+        </div>
+      </section>
+      <button class="btn" id="btnNew">New Game</button>
+      <button class="btn" id="btnPlay">Play</button>
+      <button class="btn" id="btnHold">Hold</button>
+      <span class="random" id="random"></span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e7fc9f162e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
